@@ -1,0 +1,7 @@
+# Project members authenticate over HTTPS to allow committing changes.
+svn checkout https://my-system-vae.googlecode.com/svn/trunk/ my-system-vae --username junior1909.jl@gmail.com
+
+
+
+
+ Mg4MU5GU6aA2
