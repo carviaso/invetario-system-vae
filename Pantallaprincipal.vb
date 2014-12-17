@@ -1,17 +1,6 @@
-﻿
+ 
 Imports MySql.Data.MySqlClient
 Public Class Pantallaprincipal
-    Private Sub ShowNewForm(ByVal sender As Object, ByVal e As EventArgs) Handles NewToolStripMenuItem.Click, NewToolStripButton.Click
-        ' Cree una nueva instancia del formulario secundario.
-        Dim ChildForm As New System.Windows.Forms.Form
-        ' Conviértalo en un elemento secundario de este formulario MDI antes de mostrarlo.
-        ChildForm.MdiParent = AcercaDe
-
-        m_ChildFormNumber += 1
-        ChildForm.Text = "Ventana " & m_ChildFormNumber
-
-        ChildForm.Show()
-    End Sub
 
     Private Sub Pantallaprincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim AllTabs As List(Of TabPage) = New List(Of TabPage)
