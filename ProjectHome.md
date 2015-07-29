@@ -1,0 +1,1 @@
+proyecto de escritorio para adminitracion de un almacen por medio de un inventario
